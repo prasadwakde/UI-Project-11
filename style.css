@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins";
+}
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 50px;
+}
+.logo {
+    width: 10%;
+    height: auto;
+}
+.list-div {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+.list-item a {
+    color: #333333;
+    font-size: 15px;
+    text-decoration: none;
+}
+.btn {
+    font-size: 15px;
+    border: 1px solid #3caffc;
+    color: #3caffc;
+    background-color: #fff;
+    padding: 7px 30px;
+    margin-left: 4%;
+    border-radius: 5px;
+}
+.btn:hover {
+    color: #fff;
+    background: #2293e0;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+#main-content {
+    margin-top: 50px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.content1 {
+    max-width: 50%;
+}
+.content1 h1 {
+    font-size: 35px;
+    line-height: 1.5;
+}
+.content1 p {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.button {
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: #3caffc;
+    color: #fff;
+    border: 2px solid #3caffc;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+.button:hover {
+    border: 2px solid #2293e0;
+    background: #fff;
+    color: #2293e0;
+}
+.part1 img {
+    width: 35%;
+}
+.part2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.content2 {
+    max-width: 50%;
+}
+.content2 h1 {
+    font-size: 35px;
+    line-height: 1.5;
+}
+.content2 p {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.part2 img {
+    width: 35%;
+}
+.part3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.content3 {
+    max-width: 50%;
+}
+.content3 h1 {
+    font-size: 35px;
+    line-height: 1.7;
+}
+.content3 p {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.part3 img {
+    width: 35%;
+}
+
+#service {
+    padding: 0px 80px;
+}
+.service-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.service-heading h1 {
+    width: 28%;
+    font-size: 35px;
+    margin: 0%;
+}
+.service-heading p {
+    width: 45%;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.service-list {
+    max-width: 30%;
+}
+.service-list img {
+    width: 18%;
+}
+.service-list h2 {
+    font-size: 20px;
+}
+.service-list p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#pricing-section {
+    padding: 50px 50px;
+    background-color: #3caffc;
+}
+.pricing-heading {
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+.pricing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.price-card {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.price-card-heading {
+    padding: 20px;
+    border-radius: 5px;
+}
+.price-card:hover .price-card-heading {
+    background: #333;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+.price-card:hover .price-card-heading p {
+    transition: all 200ms ease-in-out;
+    color: #fff;
+}
+.price-card-heading h1 {
+    font-size: 18px;
+    margin: 0%;
+}
+.price-card-heading p {
+    font-size: 0.7rem;
+    color: #333;
+}
+.offer {
+    list-style: none;
+    font-size: 13px;
+    padding: 0%;
+}
+.offer-list {
+    margin: 15px 20px 0 10px;
+}
+
+.plan h2 {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    margin-top: 20%;
+}
+.plan h2 span {
+    color: #9c9c9c;
+}
+.plan p {
+    text-align: center;
+    font-size: 13px;
+    color: #9c9c9c;
+}
+.plan {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15%;
+}
+.choose-plane {
+    font-size: 15px;
+    border: 1px solid #3caffc;
+    color: #3caffc;
+    background-color: #fff;
+    padding: 12px 25px;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.choose-plane:hover {
+    color: #fff;
+    background: #2293e0;
+    border: 1px transparent solid;
+}
+.price-card-active {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.price-card-active-heading {
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 10%;
+}
+.price-card-active-heading h1 {
+    font-size: 18px;
+    margin: 0%;
+}
+.price-card-active-heading p {
+    font-size: 0.7rem;
+}
+.plan-active h2 {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    margin-top: 15%;
+}
+.plan-active p {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #9c9c9c;
+}
+.plan-active {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.choose-plane-active {
+    font-size: 17px;
+    background-color: #3caffc;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 12px 25px;
+}
+.choose-plane-active:hover {
+    border: 1px solid #2293e0;
+    background: #fff;
+    color: #2293e0;
+}
+
+
+#customer-review-section {
+    padding: 5%;
+}
+.review-heading h1 {
+    text-align: center;
+}
+.review-heading p {
+    margin: 0 auto;
+    max-width: 76%;
+    text-align: center;
+    color: #333;
+    font-size: 13px;
+}
+.reviews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.comments {
+    width: 40%;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(51, 51, 51, 0.507);
+}
+.comments p {
+    font-size: 12px;
+}
+.customer-name {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.customer-name img {
+    display: block;
+    margin: auto 0;
+    width: 10%;
+    height: 10%;
+}
+.customer-name p {
+    font-weight: 700;
+}
+.customer-name p span {
+    font-weight: 100;
+}
+
+#footer {
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-left {
+    width: 22%;
+}
+.footer-left img {
+    width: 30%;
+}
+.footer-left p {
+    color: #333;
+    font-size: 15px;
+}
+.footer-mid {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1.5rem;
+}
+.link-list {
+    list-style: none;
+    color: #333;
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+}
+.link-list li {
+    margin-bottom: 1rem;
+}
+.link-list .head {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+}
+.footer-right h1 {
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+.footer-right img {
+    display: block;
+    margin: 0% auto;
+}
+
+
+@media screen and (max-width: 867px) {
+
+    .logo {
+        width: 15%;
+        height: auto;
+    }
+    .list {
+        display: none;
+    }
+
+    #main-content {
+        margin-top: 50px;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content1 h1 {
+        font-size: 20px;
+    }
+    .content1 p {
+        font-size: 10px;
+    }
+    .button {
+        font-size: 10px;
+        padding: 10px 25px;
+    }
+    .part1 img {
+        width: 45%;
+    }
+    .content2 h1 {
+        font-size: 20px;
+    }
+    .content2 p {
+        font-size: 10px;
+    }
+    .part2 img {
+        width: 45%;
+    }
+    .content3 h1 {
+        font-size: 20px;
+    }
+    .content3 p {
+        font-size: 10px;
+    }
+    .part3 img {
+        width: 45%;
+    }
+    
+    #service {
+        padding: 40px 80px;
+    }
+
+    .service-heading h1 {
+        font-size: 25px;
+        margin: 10%;
+    }
+    .service-heading p {
+        width: 45%;
+        font-size: 13px;
+    }
+    
+    #footer {
+        padding: 60px;
+    }
+    .footer-left {
+        width: 40%;
+    }
+    .footer-left img {
+        width: 35%;
+    }
+
+}
